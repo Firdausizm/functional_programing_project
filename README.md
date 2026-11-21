@@ -6,7 +6,7 @@ GradeMaster adalah aplikasi web untuk mengelola proses pascapanen kopi, mulai da
 
 ## Cara menjalankan Project
 ```
-git clone 
+git clone https://github.com/Firdausizm/functional_programing_project.git
 
 cd project_pf
 

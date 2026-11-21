@@ -1,0 +1,30 @@
+# Build output
+/target/
+/project/target/
+/project/project/target/
+
+# Scala.js / sbt / Scala CLI cache
+/.bloop/
+/.metals/
+/.scala-build/
+/.bsp/
+/src/.bsp/
+/src/.scala-build/
+/src/main/.bsp/
+/src/main/.scala-build/
+
+# IDE settings
+/.vscode/
+/.idea/
+*.iml
+
+# Java / JVM
+*.class
+*.tasty
+*.jar
+*.log
+hs_err_pid*
+
+# Operating systems
+.DS_Store
+Thumbs.db

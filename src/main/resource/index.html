@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scala.js Connection Test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="test-card">
+    <div class="icon">⚡</div>
+    <h1>Scala.js Test Lab</h1>
+    <p class="description">
+      Menguji koneksi antara HTML, CSS, dan Scala.js.
+    </p>
+
+    <div id="status" class="status">
+      Menunggu Scala.js...
+    </div>
+
+    <button id="testButton" type="button">
+      Jalankan Tes
+    </button>
+
+    <div class="result">
+      <p>Jumlah klik: <strong id="clickCount">0</strong></p>
+      <p id="message">Belum ada tes yang dijalankan.</p>
+    </div>
+
+    <h2>Log aktivitas</h2>
+    <pre id="log">HTML berhasil dimuat.</pre>
+  </main>
+
+  <!-- Path hasil build Scala.js -->
+  <script src="../../../target/scala-3.8.4/project_pf-fastopt/main.js"></script>
+</body>
+</html>

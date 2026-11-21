@@ -1,0 +1,107 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #e8edf7;
+  background: #0b1020;
+}
+
+.test-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 32px;
+  border: 1px solid #303b54;
+  border-radius: 20px;
+  background: #151d30;
+  box-shadow: 0 20px 60px #0005;
+}
+
+.icon {
+  font-size: 36px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #aab5cc;
+  line-height: 1.6;
+}
+
+.status {
+  margin: 24px 0 16px;
+  padding: 14px;
+  border-radius: 10px;
+  color: #ffd6d6;
+  background: #51252d;
+  border: 1px solid #a84450;
+}
+
+.status.ready {
+  color: #b9ffda;
+  background: #123d31;
+  border-color: #238b65;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background: #6558e8;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.15s;
+}
+
+button:hover {
+  background: #7a70ff;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.result {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #0d1425;
+}
+
+.result p {
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+#message {
+  color: #b8c5df;
+}
+
+h2 {
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+#log {
+  min-height: 80px;
+  padding: 14px;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  border-radius: 10px;
+  background: #0d1425;
+  color: #9fb4d9;
+  font-size: 13px;
+}
